@@ -8,6 +8,7 @@ public class Main {
 			System.out.println("成人です");
 		} else {
 			System.out.println("未成年です");
+			// a
 		}
 	}
 }
