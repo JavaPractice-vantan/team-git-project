@@ -14,21 +14,28 @@ public class Main {
 		System.out.println("2: 引き算プログラム");
 		System.out.println("3: 掛け算プログラム");
 		System.out.println("4: 割り算プログラム");
-		System.out.print("実行する演算を選択してください: ");
 
-		int menuNumber = scanner.nextInt();
+		while (true) {
+			System.out.print("実行する演算を選択してください: ");
+			int menuNumber = scanner.nextInt();
 
-		if (menuNumber == 1) {
+			if (menuNumber == 1) {
+				break;
 
-		} else if (menuNumber == 2) {
-			Subtraction.execute(scanner);
+			} else if (menuNumber == 2) {
+				Subtraction.execute(scanner);
+				break;
 
-		} else if (menuNumber == 3) {
+			} else if (menuNumber == 3) {
+				break;
 
-		} else if (menuNumber == 4) {
+			} else if (menuNumber == 4) {
+				break;
 
-		} else {
-			System.out.println("1から4の整数で入力してください。");
+			} else {
+				System.out.println("1から4の整数で入力してください。");
+			}
+
 		}
 
 		scanner.close();
