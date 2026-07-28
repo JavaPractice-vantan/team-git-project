@@ -1,10 +1,13 @@
 package app;
 
 public class Main {
-
 	public static void main(String[] args) {
-		System.out.println("Hallo vantan");
-		System.out.println("Hallo kdg");
-	}
+		int age = 20;
 
+		if (age >= 20) {
+			System.out.println("成人です");
+		} else {
+			System.out.println("未成年です");
+		}
+	}
 }
