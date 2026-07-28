@@ -1,16 +1,17 @@
 package app;
 
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
-		int age = 10;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("-----メニュー一覧-----");
+		System.out.println("1: 足し算プログラム");
+		System.out.println("2: 掛け算プログラム");
+		System.out.println("3: 割り算プログラム");
+		System.out.print("入力:");
 
-		if (age >= 20) {
-			System.out.println("成人です");
-		} else {
-			System.out.println("未成年です");
-			// a
-		}
-		System.out.println("Hallo vantan");
-		System.out.println("Hallo kdg");
+		int action = scanner.nextInt();
+
 	}
 }
