@@ -21,6 +21,7 @@ public class Main {
 		if (menuNumber == 1) {
 
 		} else if (menuNumber == 2) {
+			Subtraction.execute(scanner);
 
 		} else if (menuNumber == 3) {
 
