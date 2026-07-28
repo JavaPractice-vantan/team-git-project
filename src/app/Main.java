@@ -10,5 +10,7 @@ public class Main {
 			System.out.println("未成年です");
 			// a
 		}
+		System.out.println("Hallo vantan");
+		System.out.println("Hallo kdg");
 	}
 }
