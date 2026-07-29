@@ -1,11 +1,22 @@
 package app;
 
-public class Multiplication {
-	public static void main(String[] args) {
-		int num1 = 8;
-		int num2 = 9;
-		int result = num1 * num2;
+import java.util.Scanner;
 
-		System.out.println(num1 + " × " + num2 + " = " + result);
+public class Multiplication {
+
+	public static void execute(Scanner scanner) {
+
+		System.out.println("=== 掛け算 ===");
+
+		System.out.println("1つ目の数値を入力してください：");
+		double number1 = scanner.nextDouble();
+
+		System.out.println("2つ目の数値を入力してください：");
+		double number2 = scanner.nextDouble();
+
+		double result = number1 * number2;
+
+		System.out.println("計算結果：" + result);
 	}
+
 }
