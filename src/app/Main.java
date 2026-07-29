@@ -20,6 +20,7 @@ public class Main {
 			int menuNumber = scanner.nextInt();
 
 			if (menuNumber == 1) {
+				Addition.execute(scanner);
 				break;
 
 			} else if (menuNumber == 2) {
@@ -27,9 +28,11 @@ public class Main {
 				break;
 
 			} else if (menuNumber == 3) {
+				Multiplication.execute(scanner);
 				break;
 
 			} else if (menuNumber == 4) {
+				Division.execute(scanner);
 				break;
 
 			} else {
